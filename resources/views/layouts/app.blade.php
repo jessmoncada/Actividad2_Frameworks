@@ -29,7 +29,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="{{ asset('images/png/origami2.png') }}" alt="Logo del sitio"
+                    <img src="{{ asset('images/png/logo.png') }}" alt="Logo del sitio"
                         style="width: 50px; height:50px;" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -38,7 +38,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ 'Titulo' }}
+                    {{ 'The Store' }}
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
