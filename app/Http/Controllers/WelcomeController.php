@@ -11,22 +11,29 @@ class WelcomeController extends Controller
         $slides = [
             [
                 'title' => 'Apple',
-                'content' => 'Contenido del slide 1',
+                'content' => 'Computadores, tablets y celulares',
                 'image' => (asset('images/png/origami2.png')),
             ],
             [
                 'title' => 'Samsung',
-                'content' => 'Contenido del slide 2',
+                'content' => 'Computadores, televisores y celulares',
                 'image' => (asset('images/png/origami3.png')),
 
             ],
             [
                 'title' => 'Asus',
-                'content' => 'Contenido del slide 3',
+                'content' => 'Computadores y tablets',
                 'image' => (asset('images/png/img4.png')),
 
             ],
-            // Agrega más elementos de slide según sea necesario
+
+            [
+                'title' => 'LG',
+                'content' => 'Televisores',
+                'image' => (asset('images/png/origami3.png')),
+
+            ],
+
         ];
 
         return view('welcome', compact('slides'));

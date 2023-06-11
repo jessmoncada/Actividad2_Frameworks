@@ -46,7 +46,7 @@
     <div class="row">
         <div class="col-md-6">
             <h2>Samsung</h2>
-            <p>Computadores y celulares</p>
+            <p>Computadores, televisores y celulares</p>
         </div>
         <div class="col-md-6">
             <h2>LG</h2>

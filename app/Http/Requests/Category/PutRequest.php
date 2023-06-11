@@ -7,7 +7,7 @@ use Illuminate\Foundation\Http\FormRequest;
 class PutRequest extends FormRequest
 {
     /**
-     * Determine if the user is authorized to make this request.
+     * Determinar si el usuario está autorizado para realizar esta solicitud
      */
     public function authorize(): bool
     {
@@ -15,7 +15,7 @@ class PutRequest extends FormRequest
     }
 
     /**
-     * Get the validation rules that apply to the request.
+     * Reglas de validación
      *
      * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
      */

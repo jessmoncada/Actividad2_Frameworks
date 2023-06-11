@@ -11,7 +11,7 @@ use App\Http\Requests\Category\PutRequest;
 class CategoryController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Mostrar una lista de categorias creadas
      */
     public function index()
     {
@@ -19,7 +19,7 @@ class CategoryController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Almacenar una categoria que se acaba de crear
      */
     public function store(StoreRequest $request)
     {
@@ -27,7 +27,7 @@ class CategoryController extends Controller
     }
 
     /**
-     * Update the specified resource in storage.
+     * Actualizar categoria
      */
     public function update(PutRequest $request, Category $category)
     {
@@ -36,7 +36,7 @@ class CategoryController extends Controller
     }
 
     /**
-     * Remove the specified resource from storage.
+     * Eliminar una categoria
      */
     public function destroy(Category $category)
     {
