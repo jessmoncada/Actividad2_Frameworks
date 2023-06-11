@@ -7,7 +7,7 @@
                 <li data-target="#slider" data-slide-to="{{ $index }}" class="{{ $index === 0 ? 'active' : '' }}"></li>
             @endforeach
         </ol>
-        <div class="carousel-inner item ">
+        <div class="carousel-inner item">
             @foreach ($slides as $index => $slide)
                 <div class=" carousel-item {{ $index === 0 ? 'active' : '' }}">
                     <img src="{{ asset($slide['image']) }}" alt="{{ $slide['title'] }}">
@@ -28,12 +28,12 @@
         </a>
     </div>
 
-    <div class="jumbotron">
-        <h1>Bienvenido a The Store</h1>
-        <p>Podras encontrar la mejor tecnología a tu alcance</p>
+    <div class="jumbotron text-center">
+        <h1>¡Bienvenido a The Store!</h1>
+        <p>Aquí puedes encontrar la mejor tecnología a tu alcance</p>
     </div>
 
-    <div class="row">
+    <div class="row text-center">
         <div class="col-md-6">
             <h2>Apple</h2>
             <p>Computadores, tablets y celulares</p>
@@ -43,7 +43,7 @@
             <p>Computadores y tablets</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row text-center">
         <div class="col-md-6">
             <h2>Samsung</h2>
             <p>Computadores, televisores y celulares</p>
