@@ -12,25 +12,25 @@ class WelcomeController extends Controller
             [
                 'title' => 'Apple',
                 'content' => 'Computadores, tablets y celulares',
-                'image' => (asset('images/png/origami2.png')),
+                'image' => (asset('images/png/apple.png')),
             ],
             [
                 'title' => 'Samsung',
                 'content' => 'Computadores, televisores y celulares',
-                'image' => (asset('images/png/origami3.png')),
+                'image' => (asset('images/png/samsung.png')),
 
             ],
             [
                 'title' => 'Asus',
                 'content' => 'Computadores y tablets',
-                'image' => (asset('images/png/img4.png')),
+                'image' => (asset('images/png/asus.png')),
 
             ],
 
             [
                 'title' => 'LG',
                 'content' => 'Televisores',
-                'image' => (asset('images/png/origami3.png')),
+                'image' => (asset('images/png/lg.png')),
 
             ],
 

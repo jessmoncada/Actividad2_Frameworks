@@ -7,6 +7,15 @@
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
+.item {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+.item img {
+    height: 100%;
+    width: 100%;
+}
 .card-container {
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -43,3 +52,5 @@
     padding: 5px;
     /* Añade un espacio interno alrededor del ícono */
 }
+
+

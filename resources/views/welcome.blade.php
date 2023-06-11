@@ -1,17 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-    <div id="slider" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+    <div id="slider" class="carousel slide " data-ride="carousel">
+        <ol class="carousel-indicators ">
             @foreach ($slides as $index => $slide)
                 <li data-target="#slider" data-slide-to="{{ $index }}" class="{{ $index === 0 ? 'active' : '' }}"></li>
             @endforeach
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner item ">
             @foreach ($slides as $index => $slide)
-                <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
+                <div class=" carousel-item {{ $index === 0 ? 'active' : '' }}">
                     <img src="{{ asset($slide['image']) }}" alt="{{ $slide['title'] }}">
-                    <div class="carousel-caption">
+                    <div class="carousel-caption ">
                         <h3>{{ $slide['title'] }}</h3>
                         <p>{{ $slide['content'] }}</p>
                     </div>
