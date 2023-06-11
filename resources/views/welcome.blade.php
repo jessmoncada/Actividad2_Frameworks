@@ -29,26 +29,29 @@
     </div>
 
     <div class="jumbotron">
-        <h1>Bienvenido a mi sitio web</h1>
-        <p>Esta es la página de inicio de mi sitio web. Aquí puedes agregar cualquier contenido que desees mostrar a tus
-            visitantes.</p>
+        <h1>Bienvenido a The Store</h1>
+        <p>Podras encontrar la mejor tecnología a tu alcance</p>
     </div>
 
     <div class="row">
         <div class="col-md-6">
-            <h2>Sección 1</h2>
-            <p>Contenido de la sección 1.</p>
+            <h2>Apple</h2>
+            <p>Computadores, tablets y celulares</p>
         </div>
         <div class="col-md-6">
-            <h2>Sección 2</h2>
-            <p>Contenido de la sección 2.</p>
+            <h2>Asus</h2>
+            <p>Computadores y tablets</p>
         </div>
     </div>
-
     <div class="row">
-        <div class="col-md-12">
-            <h2>Otra sección</h2>
-            <p>Contenido de otra sección.</p>
+        <div class="col-md-6">
+            <h2>Samsung</h2>
+            <p>Computadores y celulares</p>
+        </div>
+        <div class="col-md-6">
+            <h2>LG</h2>
+            <p>Televisores</p>
         </div>
     </div>
+    
 @endsection

@@ -10,20 +10,20 @@ class WelcomeController extends Controller
     {
         $slides = [
             [
-                'title' => 'Slide 1',
+                'title' => 'Apple',
                 'content' => 'Contenido del slide 1',
                 'image' => (asset('images/png/origami2.png')),
             ],
             [
-                'title' => 'Slide 2',
+                'title' => 'Samsung',
                 'content' => 'Contenido del slide 2',
                 'image' => (asset('images/png/origami3.png')),
 
             ],
             [
-                'title' => 'Slide 3',
+                'title' => 'Asus',
                 'content' => 'Contenido del slide 3',
-                'image' => (asset('images/png/origami4.png')),
+                'image' => (asset('images/png/img4.png')),
 
             ],
             // Agrega más elementos de slide según sea necesario
