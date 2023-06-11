@@ -2,7 +2,7 @@
 
 @section('content')
     <a class="btn btn-warning my-3" href="{{ route('categories.create') }}">Crear categoría</a>
-    <table class="table">
+    <table class="table table-bordered">
         <thead>
             <tr>
                 <th>Nombre categoría</th>

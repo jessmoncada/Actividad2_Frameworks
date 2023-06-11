@@ -9,9 +9,9 @@
         </ol>
         <div class="carousel-inner item">
             @foreach ($slides as $index => $slide)
-                <div class=" carousel-item {{ $index === 0 ? 'active' : '' }}">
+                <div class="carousel-item {{ $index === 0 ? 'active' : '' }}">
                     <img src="{{ asset($slide['image']) }}" alt="{{ $slide['title'] }}">
-                    <div class="carousel-caption ">
+                    <div class="item carousel-caption ">
                         <h3>{{ $slide['title'] }}</h3>
                         <p>{{ $slide['content'] }}</p>
                     </div>
