@@ -28,27 +28,27 @@
         </a>
     </div>
 
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center rounded">
         <h1>¡Bienvenido a The Store!</h1>
         <p>Aquí puedes encontrar la mejor tecnología a tu alcance</p>
     </div>
 
-    <div class="row text-center">
-        <div class="col-md-6">
+    <div class="row text-center ">
+        <div class="col-md-6 d-inline p-2 bg-dark text-white border border-warning">
             <h2>Apple</h2>
             <p>Computadores, tablets y celulares</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 d-inline p-2 bg-dark text-white border border-warning">
             <h2>Asus</h2>
             <p>Computadores y tablets</p>
         </div>
     </div>
     <div class="row text-center">
-        <div class="col-md-6">
+        <div class="col-md-6 d-inline p-2 bg-dark text-white border border-warning">
             <h2>Samsung</h2>
             <p>Computadores, televisores y celulares</p>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 d-inline p-2 bg-dark text-white border border-warning">
             <h2>LG</h2>
             <p>Televisores</p>
         </div>
