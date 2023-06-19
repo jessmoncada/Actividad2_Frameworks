@@ -12,22 +12,25 @@ class ConfirmPasswordController extends Controller
     |--------------------------------------------------------------------------
     | Confirm Password Controller
     |--------------------------------------------------------------------------
-    |Este controlador maneja las confirmaciones de contraseña
+    |
+    | This controller is responsible for handling password confirmations and
+    | uses a simple trait to include the behavior. You're free to explore
+    | this trait and override any functions that require customization.
     |
     */
 
     use ConfirmsPasswords;
 
     /**
-     *Cuando se presenta falla en la URL
+     * Where to redirect users when the intended url fails.
      *
      * @var string
      */
     protected $redirectTo = RouteServiceProvider::HOME;
 
     /**
-     * 
-     *Crea una nueva instancia
+     * Create a new controller instance.
+     *
      * @return void
      */
     public function __construct()
