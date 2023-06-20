@@ -3,7 +3,6 @@
 namespace App\Http\Controllers\Api;
 
 use App\Models\Category;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Category\StoreRequest;
 use App\Http\Requests\Category\PutRequest;
@@ -11,7 +10,7 @@ use App\Http\Requests\Category\PutRequest;
 class CategoryController extends Controller
 {
     /**
-     * Mostrar una lista de categorias creadas
+     * Display a listing of the resource.
      */
     public function index()
     {
@@ -19,7 +18,7 @@ class CategoryController extends Controller
     }
 
     /**
-     * Almacenar una categoria que se acaba de crear
+     * Store a newly created resource in storage.
      */
     public function store(StoreRequest $request)
     {
@@ -27,7 +26,7 @@ class CategoryController extends Controller
     }
 
     /**
-     * Actualizar categoria
+     * Update the specified resource in storage.
      */
     public function update(PutRequest $request, Category $category)
     {
@@ -36,7 +35,7 @@ class CategoryController extends Controller
     }
 
     /**
-     * Eliminar una categoria
+     * Remove the specified resource from storage.
      */
     public function destroy(Category $category)
     {
