@@ -7,7 +7,7 @@ use Illuminate\Foundation\Http\FormRequest;
 class StoreRequest extends FormRequest
 {
     /**
-     * Determinar si el usuario está autorizado para realizar esta solicitud
+     * Determine if the user is authorized to make this request.
      */
     public function authorize(): bool
     {
@@ -15,15 +15,15 @@ class StoreRequest extends FormRequest
     }
 
     /**
-     * Reglas de validación
+     * Get the validation rules that apply to the request.
      *
      * @return array<string, \Illuminate\Contracts\Validation\ValidationRule|array|string>
      */
     public function rules(): array
     {
         return [
-            'title' => 'required|min:5|max:500',
-            'slug' => 'required|min:5|max:500|unique:categories',
+            'title' => 'min:5|max:500',
+            'slug' => 'min:5|max:500',
         ];
     }
 }
